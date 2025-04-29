@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="min-h-screen p-4 bg-black font-sans">
       {/* App Header */}
-      <h1 className='text-5xl text-center font-bold underline text-[#7d2ae8]'>Notes App</h1>
+      <h1 className='text-5xl text-center font-bold underline text-[#7d2ae8] m-5'>Notes App</h1>
 
       {/* Navigation Bar */}
-      <nav className="flex justify-center gap-4 m-6">
+      <nav className="flex justify-center gap-4 mt-20 mb-4">
         {/* Button to switch to Add Notes page */}
         <button onClick={() => setPage('add')} className="main-buttons">
           Add Notes
